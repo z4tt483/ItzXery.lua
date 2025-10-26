@@ -1,119 +1,119 @@
-# ItzXery.lua — Dokumentasi Lengkap & Profesional
+# ItzXery.lua — As follows
 
 **A curated collection of Lua executor scripts for Roblox by _ItzXery_.**  
-Script ini dibuat untuk executor yang mendukung `HttpGet` dan `loadstring`. Dokumentasi ini merangkum dua script utama aktif: **ESP-Players** dan **AntiLag2025**, beserta fitur lengkap, kegunaan, dan catatan profesional.
+These scripts are designed for executors that support `HttpGet` and `loadstring`. This documentation covers the two main active scripts: **ESP-Players** and **AntiLag2025**, including their full features, usage, and professional notes.
 
 ---
 
-## 📦 Ringkasan Script Utama
+## 📦 Main Script Summary
 
-| Script            | Deskripsi Singkat                                                                 |
+| Script            | Brief Description                                                                 |
 |------------------|---------------------------------------------------------------------------------|
-| **ESP-Players**   | Utilitas ESP untuk menyorot pemain lain secara real-time, dengan pilihan warna dan auto-update pemain baru/keluar. |
-| **AntiLag2025**   | Paket optimasi performa dan visual Roblox: FPS boost, lighting ultra, anti-shadow, ragdoll R6/R15, splash screen, jump button resizer, dan fitur kualitas hidup lainnya. |
+| **ESP-Players**   | ESP utility to highlight other players in real-time, with customizable colors and automatic updates for new/exiting players. |
+| **AntiLag2025**   | Roblox performance and visual optimization package: FPS boost, ultra lighting, anti-shadow, R6/R15 ragdoll, splash screen, jump button resizing, and other quality-of-life features. |
 
 ---
 
 ## 1. ESP-Players
 
-**Deskripsi Lengkap:**  
-ESP-Players adalah utilitas yang menyorot pemain lain di map Roblox, dirancang untuk meningkatkan awareness dalam PvP, roleplay, atau debugging. Script ini ringan, sehingga tidak menurunkan performa, dan kompatibel untuk perangkat Android maupun PC.
+**Detailed Description:**  
+ESP-Players is a utility that highlights other players in the Roblox map, designed to increase awareness in PvP, roleplay, or debugging. It is lightweight, so it does not reduce performance, and is compatible with both Android and PC devices.
 
-**Fitur Utama**
-- **Highlight Pemain Real-Time:** Pemain lain akan terlihat melalui dinding atau objek (box, outline, label).  
-- **Pilihan Warna ESP:** Pengguna dapat menyesuaikan warna highlight sesuai preferensi.  
-- **Self-Exclusion:** Pemain sendiri tidak akan disorot.  
-- **Auto-Update:** Otomatis mendeteksi pemain baru yang masuk atau keluar game.  
-- **Optimasi Performa:** Dibuat ringan untuk mengurangi overhead, menjaga FPS stabil.  
-- **Kompatibilitas Luas:** Berfungsi pada berbagai map dan game Roblox, baik di Android maupun PC.
+**Main Features**
+- **Real-Time Player Highlight:** Other players are visible through walls or objects (box, outline, label).  
+- **Customizable ESP Colors:** Users can set highlight colors according to their preference.  
+- **Self-Exclusion:** The local player is not highlighted.  
+- **Auto-Update:** Automatically detects new players entering or leaving the game.  
+- **Performance Optimized:** Lightweight to reduce overhead and maintain stable FPS.  
+- **Wide Compatibility:** Works across various Roblox maps and games on Android and PC.
 
-**Catatan**
-- ESP hanya berfungsi pada executor yang mendukung `HttpGet` dan `loadstring`.  
-- Cocok digabung dengan script optimasi performa lain seperti AntiLag2025.  
-- Tidak mengganggu interaksi normal karakter pemain.
+**Notes**
+- ESP only works on executors that support `HttpGet` and `loadstring`.  
+- Can be used alongside other performance optimization scripts like AntiLag2025.  
+- Does not interfere with normal player interaction.
 
 ---
 
 ## 2. AntiLag2025
 
-**Deskripsi Lengkap:**  
-AntiLag2025 adalah paket optimasi komprehensif untuk Roblox. Fokus pada peningkatan FPS, stabilitas visual, dan kenyamanan gameplay, tanpa merusak estetika asli game. Cocok untuk perangkat Android & PC, serta map dengan banyak efek visual.
+**Detailed Description:**  
+AntiLag2025 is a comprehensive optimization package for Roblox. It focuses on increasing FPS, visual stability, and gameplay comfort without breaking the original game aesthetics. Compatible with Android & PC devices and maps with heavy visual effects.
 
-**Tujuan Utama**
-- Mempercepat rendering dan mengurangi lag.  
-- Menurunkan penggunaan resource visual tanpa mengubah aset penting.  
-- Menambahkan fitur kualitas hidup (QoL) seperti splash screen, ragdoll, dan pengaturan tombol lompat.
+**Primary Goals**
+- Speed up rendering and reduce lag.  
+- Reduce visual resource usage without changing essential assets.  
+- Add quality-of-life (QoL) features such as splash screen, ragdoll, and jump button adjustment.
 
-**Fitur Lengkap**
+**Full Features**
 
-### 🔹 Optimasi Visual & Performa
-- **FPS Boost:** Menonaktifkan efek visual berat dan mengoptimalkan rendering.  
-- **Lighting Ultra:** Shadow dan cahaya dinamis dikurangi untuk stabilitas FPS.  
-- **Anti Shadow:** Meminimalkan atau menonaktifkan shadow part tertentu untuk performa maksimal.  
-- **Material & Transparansi Otomatis:** Menyetel part menjadi material ringan, kecuali part penting bernama `DamageBrick`.  
-- **Pembersihan Efek:** Menghapus particle, blur, dan post-processing berat.  
-- **Pengaturan Transparansi:** Part dengan transparansi tinggi dioptimalkan untuk mengurangi lag visual.
+### 🔹 Visual & Performance Optimization
+- **FPS Boost:** Disables heavy visual effects and optimizes rendering.  
+- **Ultra Lighting:** Reduces dynamic shadows and lighting for stable FPS.  
+- **Anti Shadow:** Minimizes or disables shadows of certain parts for maximum performance.  
+- **Automatic Material & Transparency:** Sets parts to lightweight materials, except important parts named `DamageBrick`.  
+- **Effect Cleanup:** Removes particles, blur, and heavy post-processing.  
+- **Transparency Adjustment:** High transparency parts are optimized to reduce visual lag.
 
-### 🔹 GUI & Kontrol
-- **Splash Screen:** Halaman awal dengan teks *"Tap To Remove Page"*, sementara CoreGui dan kontrol dikunci.  
-- **Rainbow Text GUI:** Efek warna dinamis pada GUI, meningkatkan estetika.  
-- **Jump Button Resizer:** Tombol lompat dapat diperbesar dan digeser sesuai preferensi pengguna.  
-- **Kontrol Dinamis:** Splash screen dan tombol *Skip Loading* memungkinkan aktivasi GUI dan kontrol secara instan.
+### 🔹 GUI & Controls
+- **Splash Screen:** Initial screen with *"Tap To Remove Page"* text while CoreGui and controls are locked.  
+- **Rainbow Text GUI:** Dynamic color effect on GUI for aesthetic improvement.  
+- **Jump Button Resizer:** Jump button can be enlarged and moved according to user preference.  
+- **Dynamic Controls:** Splash screen and *Skip Loading* button allow instant GUI and control activation.
 
 ### 🔹 Gameplay & Quality-of-Life (QoL)
-- **Ragdoll on Death (R6 & R15):** Karakter jatuh secara realistis saat mati atau reset.  
-- **Respawn Cepat:** Proses respawn dipercepat untuk pengalaman gameplay lebih lancar.  
-- **Pengecualian DamageBrick:** Part bernama `DamageBrick` tidak diubah material, transparansi, atau shadow-nya.  
-- **Kompatibilitas Map:** Fitur AntiLag bekerja pada berbagai map dan skala game.  
-- **Efek Visual Ringan:** Tetap mempertahankan estetika game tanpa menyebabkan lag.  
+- **Ragdoll on Death (R6 & R15):** Character falls realistically when dying or resetting.  
+- **Fast Respawn:** Respawn process is accelerated for smoother gameplay.  
+- **DamageBrick Exception:** Parts named `DamageBrick` are not modified in material, transparency, or shadow.  
+- **Map Compatibility:** AntiLag features work on various maps and game scales.  
+- **Light Visual Effects:** Maintains game aesthetics without causing lag.
 
-### 🔹 Stabilitas & Kompatibilitas
-- **Multi-Platform:** Optimasi untuk Android & PC.  
-- **Executor-Friendly:** Hanya membutuhkan executor yang mendukung `HttpGet` dan `loadstring`.  
-- **Konfigurasi Aman:** Tidak mengubah aset penting game dan menjaga interaksi normal karakter.
-
----
-
-## 3. Rekomendasi Penggunaan
-
-- Jalankan **AntiLag2025** terlebih dahulu untuk memaksimalkan FPS dan stabilitas visual.  
-- Jalankan **ESP-Players** setelahnya untuk menyorot pemain lain tanpa menurunkan performa.  
-- Aktifkan fitur FPS Boost & Lighting Ultra saat bermain di server besar atau map berat.  
-- Gunakan tombol *Skip Loading* untuk langsung mengaktifkan GUI & kontrol saat splash screen muncul.  
-- Hindari pengaktifan efek part yang mungkin konflik dengan mekanik game.  
+### 🔹 Stability & Compatibility
+- **Multi-Platform:** Optimized for Android & PC.  
+- **Executor-Friendly:** Only requires an executor that supports `HttpGet` and `loadstring`.  
+- **Safe Configuration:** Does not modify essential game assets and preserves normal player interaction.
 
 ---
 
-## 4. Best Practices & Etika
+## 3. Usage Recommendations
 
-- Gunakan script untuk **pengembangan, testing, atau personal use**.  
-- Hindari penggunaan yang merugikan pemain lain atau melanggar Terms of Service.  
-- Script diuji pada executor yang mendukung `HttpGet` & `loadstring`. Perilaku bisa berbeda pada executor terbatas.  
-- Selalu pertimbangkan performa perangkat sebelum mengaktifkan semua fitur sekaligus.  
-
----
-
-## 5. Kontak & Kontribusi
-
-- **Pembuat / Maintainer:** ItzXery  
-- Kontribusi (pull request / issue) dapat dilakukan melalui repo GitHub utama, dengan deskripsi jelas tentang perubahan dan alasan teknis.  
+- Run **AntiLag2025** first to maximize FPS and visual stability.  
+- Run **ESP-Players** afterward to highlight other players without reducing performance.  
+- Enable FPS Boost & Ultra Lighting when playing on large servers or heavy maps.  
+- Use the *Skip Loading* button to instantly activate GUI & controls during the splash screen.  
+- Avoid enabling part effects that may conflict with game mechanics.
 
 ---
 
-## 6. Lisensi (Opsional)
+## 4. Best Practices & Ethics
 
-- Disarankan menggunakan **MIT License** atau **Unlicense** agar pengguna lain memahami hak penggunaan dan kontribusi.
-
----
-
-**Catatan Akhir:**  
-Dokumentasi ini siap untuk dimasukkan ke file `README.md` resmi repository. Sudah mencakup semua fitur, deskripsi, dan tips penggunaan untuk **ESP-Players** dan **AntiLag2025**, tanpa contoh load atau snippet tambahan.
+- Use scripts for **development, testing, or personal use**.  
+- Avoid usage that harms other players or violates Terms of Service.  
+- Scripts are tested on executors supporting `HttpGet` & `loadstring`. Behavior may differ on restricted executors.  
+- Always consider device performance before enabling all features at once.
 
 ---
 
-## 7. Loadstring / Cara Jalankan Script
+## 5. Contact & Contribution
 
-Gunakan snippet ini untuk langsung menjalankan kedua script di executor Roblox:
+- **Creator / Maintainer:** ItzXery  
+- Contributions (pull requests / issues) can be submitted via the main GitHub repository, with clear descriptions of changes and technical reasoning.
+
+---
+
+## 6. License (Optional)
+
+- Recommended: **MIT License** or **Unlicense** so users understand usage and contribution rights.
+
+---
+
+**Final Notes:**  
+This documentation is ready to be included in the official `README.md` of the repository. It covers all features, descriptions, and usage tips for **ESP-Players** and **AntiLag2025**, without extra load examples.
+
+---
+
+## 7. Loadstring / How to Run the Scripts
+
+Use the following snippet to run both scripts directly on Roblox executors:
 
 ```lua
 -- Load AntiLag2025
