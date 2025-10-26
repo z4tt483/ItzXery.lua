@@ -116,12 +116,4 @@ This documentation is ready to be included in the official `README.md` of the re
 Use the following snippet to run both scripts directly on Roblox executors:
 
 ```lua
--- Load AntiLag2025
-pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzXery/ItzXery.lua/main/AntiLag-ItzXery.lua"))()
-end)
-
--- Load ESP-Players
-pcall(function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzXery/ItzXery.lua/main/Esp-Players.lua"))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/z4tt483/ItzXery.lua/main/auto-activate-Antilag%26Esp-Players.lua"))()
